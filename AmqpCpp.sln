@@ -18,6 +18,7 @@ Global
 		AmqpCpp\AmqpCpp.vcxitems*{080f152f-11e7-4657-8974-63a7b4b3f7fb}*SharedItemsImports = 4
 		AmqpCpp\AmqpCpp.vcxitems*{45d41acc-2c3c-43d2-bc10-02aa73ffc7c7}*SharedItemsImports = 9
 		AmqpCpp\AmqpCpp.vcxitems*{6bb29338-7100-4c65-a8b3-677bf6ccc148}*SharedItemsImports = 4
+		AmqpCpp\AmqpCpp.vcxitems*{969d92c7-33a1-4581-a31f-9852e15321a3}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64

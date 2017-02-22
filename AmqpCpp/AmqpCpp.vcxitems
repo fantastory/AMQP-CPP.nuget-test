@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{45d41acc-2c3c-43d2-bc10-02aa73ffc7c7}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\include\amqpcpp.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\include\amqpcpp\address.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\include\amqpcpp\array.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\include\amqpcpp\booleanset.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\include\amqpcpp\buffer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\include\amqpcpp\bytebuffer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\include\amqpcpp\callbacks.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\include\amqpcpp\channel.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\include\amqpcpp\channelimpl.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\include\amqpcpp\classes.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\include\amqpcpp\connection.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\include\amqpcpp\connectionhandler.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\include\amqpcpp\connectionimpl.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\include\amqpcpp\decimalfield.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\include\amqpcpp\deferred.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\include\amqpcpp\deferredcancel.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\include\amqpcpp\deferredconsumer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\include\amqpcpp\deferredconsumerbase.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\include\amqpcpp\deferreddelete.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\include\amqpcpp\deferredget.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\include\amqpcpp\deferredqueue.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\include\amqpcpp\endian.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\include\amqpcpp\entityimpl.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\include\amqpcpp\envelope.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\include\amqpcpp\exchangetype.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\include\amqpcpp\field.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\include\amqpcpp\fieldproxy.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\include\amqpcpp\flags.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\include\amqpcpp\libev.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\include\amqpcpp\libevent.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\include\amqpcpp\libuv.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\include\amqpcpp\login.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\include\amqpcpp\message.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\include\amqpcpp\metadata.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\include\amqpcpp\monitor.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\include\amqpcpp\numericfield.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\include\amqpcpp\outbuffer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\include\amqpcpp\receivedframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\include\amqpcpp\stack_ptr.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\include\amqpcpp\stringfield.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\include\amqpcpp\table.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\include\amqpcpp\tcpchannel.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\include\amqpcpp\tcpconnection.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\include\amqpcpp\tcpdefines.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\include\amqpcpp\tcphandler.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\include\amqpcpp\watchable.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\addressinfo.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\basicackframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\basiccancelframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\basiccancelokframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\basicconsumeframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\basicconsumeokframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\basicdeliverframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\basicframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\basicgetemptyframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\basicgetframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\basicgetokframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\basicheaderframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\basicnackframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\basicpublishframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\basicqosframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\basicqosokframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\basicrecoverasyncframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\basicrecoverframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\basicrecoverokframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\basicrejectframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\basicreturnframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\bodyframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\channelcloseframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\channelcloseokframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\channelflowframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\channelflowokframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\channelframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\channelopenframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\channelopenokframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\connectioncloseframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\connectioncloseokframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\connectionframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\connectionopenframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\connectionopenokframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\connectionsecureframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\connectionsecureokframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\connectionstartframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\connectionstartokframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\connectiontuneframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\connectiontuneokframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\consumedmessage.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\exception.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\exchangebindframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\exchangebindokframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\exchangedeclareframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\exchangedeclareokframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\exchangedeleteframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\exchangedeleteokframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\exchangeframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\exchangeunbindframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\exchangeunbindokframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\extframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\frame.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\framecheck.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\headerframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\heartbeatframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\includes.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\messageimpl.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\methodframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\numeric_cast.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\pipe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\protocolexception.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\protocolheaderframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\queuebindframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\queuebindokframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\queuedeclareframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\queuedeclareokframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\queuedeleteframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\queuedeleteokframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\queueframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\queuepurgeframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\queuepurgeokframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\queueunbindframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\queueunbindokframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\reducedbuffer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\returnedmessage.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\tcp.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\tcpclosed.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\tcpconnected.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\tcpinbuffer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\tcpoutbuffer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\tcpresolver.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\tcpstate.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\transactioncommitframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\transactioncommitokframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\transactionframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\transactionrollbackframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\transactionrollbackokframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\transactionselectframe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\transactionselectokframe.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\array.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\channelimpl.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\connectionimpl.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\deferredcancel.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\deferredconsumer.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\deferredconsumerbase.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\deferredget.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\field.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\flags.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\receivedframe.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\table.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\tcp.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\tcpconnection.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\AMQP-CPP\src\watchable.cpp" />
+  </ItemGroup>
+</Project>

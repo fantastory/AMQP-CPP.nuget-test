@@ -6,14 +6,11 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\AMQP-CPP\tests\table\table.cpp">
-      <Filter>table</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\AMQP-CPP\tests\myconnection.h" />
+    <ClCompile Include="..\AMQP-CPP\tests\table\table.cpp">
+      <Filter>table</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

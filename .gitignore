@@ -1,0 +1,7 @@
+Debug
+boost-vc140.1.63.0.0
+/packages
+/examples/emit_log/*.user
+/.vs/AmqpCpp/v14/*.suo
+/*.db
+/*.opendb
