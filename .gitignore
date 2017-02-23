@@ -5,3 +5,4 @@ boost-vc140.1.63.0.0
 /.vs/AmqpCpp/v14/*.suo
 /*.db
 /*.opendb
+Release

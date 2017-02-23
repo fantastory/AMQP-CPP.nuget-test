@@ -13,9 +13,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AmqpCpp", "AmqpCpp\AmqpCpp.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AmqpCppDll", "AmqpCppDll\AmqpCppDll.vcxproj", "{6BB29338-7100-4C65-A8B3-677BF6CCC148}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "emit_logs_nuget_dependency", "emit_logs_nuget_dependency\emit_logs_nuget_dependency.vcxproj", "{9DD486A9-DE8E-4F94-BFA4-ECF9928C40CD}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		AmqpCpp\AmqpCpp.vcxitems*{080f152f-11e7-4657-8974-63a7b4b3f7fb}*SharedItemsImports = 4
 		AmqpCpp\AmqpCpp.vcxitems*{45d41acc-2c3c-43d2-bc10-02aa73ffc7c7}*SharedItemsImports = 9
 		AmqpCpp\AmqpCpp.vcxitems*{6bb29338-7100-4c65-a8b3-677bf6ccc148}*SharedItemsImports = 4
 		AmqpCpp\AmqpCpp.vcxitems*{969d92c7-33a1-4581-a31f-9852e15321a3}*SharedItemsImports = 4
@@ -51,6 +52,14 @@ Global
 		{6BB29338-7100-4C65-A8B3-677BF6CCC148}.Release|x64.Build.0 = Release|x64
 		{6BB29338-7100-4C65-A8B3-677BF6CCC148}.Release|x86.ActiveCfg = Release|Win32
 		{6BB29338-7100-4C65-A8B3-677BF6CCC148}.Release|x86.Build.0 = Release|Win32
+		{9DD486A9-DE8E-4F94-BFA4-ECF9928C40CD}.Debug|x64.ActiveCfg = Debug|x64
+		{9DD486A9-DE8E-4F94-BFA4-ECF9928C40CD}.Debug|x64.Build.0 = Debug|x64
+		{9DD486A9-DE8E-4F94-BFA4-ECF9928C40CD}.Debug|x86.ActiveCfg = Debug|Win32
+		{9DD486A9-DE8E-4F94-BFA4-ECF9928C40CD}.Debug|x86.Build.0 = Debug|Win32
+		{9DD486A9-DE8E-4F94-BFA4-ECF9928C40CD}.Release|x64.ActiveCfg = Release|x64
+		{9DD486A9-DE8E-4F94-BFA4-ECF9928C40CD}.Release|x64.Build.0 = Release|x64
+		{9DD486A9-DE8E-4F94-BFA4-ECF9928C40CD}.Release|x86.ActiveCfg = Release|Win32
+		{9DD486A9-DE8E-4F94-BFA4-ECF9928C40CD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

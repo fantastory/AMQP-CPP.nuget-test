@@ -6,6 +6,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\AMQP-CPP\examples\rabbitmq_tutorials\asiohandler.h" />
+    <ClInclude Include="..\..\AMQP-CPP\examples\rabbitmq_tutorials\testcredentials.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
